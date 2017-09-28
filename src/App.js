@@ -61,7 +61,7 @@ class App extends Component {
 						Want to get in touch? Message me on <Link>Twitter</Link>. If you must you could <Link>email me</Link>. But please, please do not contact me on LinkedIn.
 					</p>
 					<p>
-						Hey, we made it! I hate writing this self-indulgiant junk and you probably hate reading it, but we did it nonetheless. 🚀
+						🚀
 					</p>
 				</div>
       </div>
