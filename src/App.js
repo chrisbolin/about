@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 const links = {
+	'Chris Bolin': 'https://chris.bolin.co/',
 	'Computational Engineering': 'https://computationalengineering.mit.edu/',
 	'Formidable': 'https://formidable.com/',
 	'MIT': 'https://mit.edu/',
@@ -38,11 +39,14 @@ const Link = ({children}) => (
 );
 
 class App extends Component {
+	componentDidMount() {
+		console.log(`what's up, nerds`);
+	}
   render() {
     return (
       <div className="page">
 	      <p className="big">
-					👋Hello, Chris Bolin here. I’m a software engineer and artist in Denver. I make user interfaces at <Link>Formidable</Link>.  My latest personal project <Link>Offline Only</Link> was featured in <Link>Vice</Link>, the <Link>CBC</Link>, <Link>Le Monde</Link>, and <Link>The Next Web</Link>. Other recent projects include <Link>Tessellate</Link>, <Link>Skycoins</Link>, and some <Link>travel photography</Link>.
+					{'👋'}Hello, <Link>Chris Bolin</Link> here. I’m a software engineer and artist in Denver. I make user interfaces at <Link>Formidable</Link>.  My latest personal project <Link>Offline Only</Link> was featured in <Link>Vice</Link>, the <Link>CBC</Link>, <Link>Le Monde</Link>, and <Link>The Next Web</Link>. Other recent projects include <Link>Tessellate</Link>, <Link>Skycoins</Link>, and some <Link>travel photography</Link>.
 				</p>
 	      <div className="body">
 					<p>
@@ -58,10 +62,10 @@ class App extends Component {
 						You can see my photography on <Link>Instagram</Link> and <Link>Unsplash</Link>, check out my <Link>book of abandoned places</Link>, hear me argue with my dad about politics on <Link>All Things Considered</Link>, see some of my code experiments on <Link>CodePen</Link>, and read <Link>some of my writing</Link> right here.
 					</p>
 					<p>
-						Want to get in touch? Message me on <Link>Twitter</Link>. If you must you could <Link>email me</Link>. But please, please do not contact me on LinkedIn.
+						Want to get in touch? Message me on <Link>Twitter</Link>. If you must, you could <Link>email me</Link>. But please, please do not contact me on LinkedIn.
 					</p>
-					<p>
-						🚀
+					<p className="last">
+						{'🚀'}
 					</p>
 				</div>
       </div>
