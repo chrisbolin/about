@@ -39,7 +39,7 @@ export default class Link extends Component {
 	style() {
 		if (!this.rect) return;
 
-		const hue = Math.round(190 + 100*(this.rect.y / 300));
+		const hue = Math.round(190 + 100*(this.rect.y / document.body.clientHeight * 6));
 		return {
 			backgroundColor: `hsl(${hue}, 100%, 93%)`
 		};
