@@ -13,7 +13,7 @@ const links = {
 	'The Next Web': 'https://thenextweb.com/insider/2017/08/21/this-manifesto-against-internet-addiction-can-only-be-viewed-offline/',
 	'Tessellate': 'https://chris.bolin.co/tessellate/',
 	'Skycoins': 'https://chris.bolin.co/skycoins/',
-	'travel photography': 'https://rookievagabonds.tumblr.com/',
+	'travel photoblog': 'https://rookievagabonds.tumblr.com/',
 	'numerical simulation to environmental impact estimation': 'http://dspace.mit.edu/handle/1721.1/82189',
 	'Mechanical Engineering': 'http://engineering.unl.edu/mme/',
 	'University of Nebraska': 'http://www.unl.edu/',
@@ -46,7 +46,7 @@ class App extends Component {
     return (
       <div className="page">
 	      <p className="big">
-					{'👋'}Hello, <Link>Chris Bolin</Link> here. I’m a software engineer and artist in Denver. I make user interfaces at <Link>Formidable</Link>.  My latest personal project <Link>Offline Only</Link> was featured in <Link>Vice</Link>, the <Link>CBC</Link>, <Link>Le Monde</Link>, and <Link>The Next Web</Link>. Other recent projects include <Link>Tessellate</Link>, <Link>Skycoins</Link>, and some <Link>travel photography</Link>.
+					{'👋'}Hello, <Link>Chris Bolin</Link> here. I’m a software engineer and artist in Denver. I make user interfaces at <Link>Formidable</Link>.  My latest personal project <Link>Offline Only</Link> was featured in <Link>Vice</Link>, the <Link>CBC</Link>, <Link>Le Monde</Link>, and <Link>The Next Web</Link>. Other recent projects include <Link>Tessellate</Link> and <Link>Skycoins</Link>.
 				</p>
 	      <div className="body">
 					<p>
@@ -59,7 +59,7 @@ class App extends Component {
 						I love teaching and mentoring. I’ve taught at MIT, <Link>Girl Develop It</Link>, and <Link>Startup Institute</Link> and tutored high school students in mathematics and environmental studies.
 					</p>
 					<p>
-						You can see my photography on <Link>Instagram</Link> and <Link>Unsplash</Link>, check out my <Link>book of abandoned places</Link>, hear me argue with my dad about politics on <Link>All Things Considered</Link>, see some of my code experiments on <Link>CodePen</Link>, and read <Link>some of my writing</Link> right here.
+						You can see my photography on <Link>Instagram</Link> and <Link>Unsplash</Link>, browse my <Link>travel photoblog</Link>, check out my <Link>book of abandoned places</Link>, hear me argue with my dad about politics on <Link>All Things Considered</Link>, see some of my code experiments on <Link>CodePen</Link>, and read <Link>some of my writing</Link> right here.
 					</p>
 					<p>
 						Want to get in touch? Message me on <Link>Twitter</Link>. If you must, you could <Link>email me</Link>. But please, please do not contact me on LinkedIn.
