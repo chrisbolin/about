@@ -53,7 +53,7 @@ class App extends Component {
 						I have a Master’s in <Link>Computational Engineering</Link> from <Link>MIT</Link> where my research applied <Link>numerical simulation to environmental impact estimation</Link>. As an undergraduate I studied <Link>Mechanical Engineering</Link> at the <Link>University of Nebraska</Link> and researched computational heat transfer.
 					</p>
 					<p>
-						Previously I was the first empolyee at <Link>Jumpshell</Link>, the lead data scientist at <Link>Autotegrity</Link>, and an engineer at <Link>National Instruments</Link>.
+						Previously I was the first employee at <Link>Jumpshell</Link>, the lead data scientist at <Link>Autotegrity</Link>, and an engineer at <Link>National Instruments</Link>.
 					</p>
 					<p>
 						I love teaching and mentoring. I’ve taught at MIT, <Link>Girl Develop It</Link>, and <Link>Startup Institute</Link> and tutored high school students in mathematics and environmental studies.
