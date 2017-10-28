@@ -45,14 +45,19 @@ export default class Link extends Component {
 		};
 	}
 	render() {
-		const {children} = this.props;
+		const {children, sameWindow} = this.props;
 
 		const href = links[children];
 
 		if (!href) return '';
 
 		return (
-			<a href={href} target="_blank" ref={element => { this.element = element }} style={this.style()}>
+			<a
+				href={href}
+				target={sameWindow ? '_self' : '_blank'}
+				ref={element => { this.element = element }}
+				style={this.style()}
+			>
 				{children}
 			</a>
 		);

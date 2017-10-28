@@ -10,7 +10,7 @@ export default class App extends Component {
     return (
       <div className="page">
 	      <p className="big">
-					{'👋'}Hello, <Link>Chris Bolin</Link> here. I’m a software engineer and artist in Denver. I make user interfaces at <Link>Formidable</Link>.  My latest personal project <Link>Offline Only</Link> was featured in <Link>Vice</Link>, the <Link>CBC</Link>, <Link>Le Monde</Link>, and <Link>The Next Web</Link>. Other recent projects include <Link>Tessellate</Link> and <Link>Skycoins</Link>.
+					{'👋'}Hello, <Link sameWindow>Chris Bolin</Link> here. I’m a software engineer and artist in Denver. I make user interfaces at <Link>Formidable</Link>.  My latest personal project <Link>Offline Only</Link> was featured in <Link>Vice</Link>, the <Link>CBC</Link>, <Link>Le Monde</Link>, and <Link>The Next Web</Link>. Other recent projects include <Link>Tessellate</Link> and <Link>Skycoins</Link>.
 				</p>
 	      <div className="body">
 					<p>
