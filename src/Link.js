@@ -51,7 +51,7 @@ export default class Link extends Component {
       125 + 1000 * (this.rect.y / document.body.clientHeight)
     );
     return {
-      backgroundColor: `hsl(${hue}, 100%, 91%)`
+      backgroundColor: `hsl(${hue}, 100%, 93%)`
     };
   }
   render() {
