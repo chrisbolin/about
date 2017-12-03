@@ -10,6 +10,7 @@ body {
   padding: 1vmin;
   max-width: 800px;
   margin: auto;
+  margin-bottom: 5vmin;
 }
 
 p {
@@ -30,8 +31,54 @@ p {
   line-height: 1.4;
 }
 
-.last {
+.rocket {
   text-align: center;
+  cursor: crosshair;
+}
+
+.rocket .glyph.animate {
+  animation: 7s rocket linear;
+  display: inline-block;
+}
+
+@keyframes rocket {
+  0% {
+    transform: rotate(0deg);
+  }
+  7%,
+  14% {
+    /* rotated. hold before launch */
+    transform: rotate(680deg);
+  }
+  19% {
+    /* mini launch */
+    transform: translateY(-20px) rotate(680deg);
+  }
+  25% {
+    /* high in the sky */
+    transform: translateY(-3000px) rotate(680deg);
+    opacity: 1;
+  }
+  26% {
+    /* hide */
+    opacity: 0;
+  }
+  27% {
+    /* high in the sky, rotated to be just 40degs off */
+    transform: translateY(400px) rotate(-40deg);
+    opacity: 0;
+  }
+  70%,
+  75% {
+    /* landed */
+    opacity: 1;
+    transform: rotate(-40deg);
+  }
+  90%,
+  100% {
+    /* initial position */
+    transform: rotate(0deg);
+  }
 }
 
 a {

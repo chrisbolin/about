@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "./Link";
+import Rocket from "./Rocket";
 import "./App.css";
 
 export default class App extends Component {
@@ -53,7 +54,7 @@ export default class App extends Component {
             must, you could <Link>email me</Link>. But please, please do not
             contact me on LinkedIn.
           </p>
-          <p className="last">{"🚀"}</p>
+          <Rocket />
         </div>
       </div>
     );
