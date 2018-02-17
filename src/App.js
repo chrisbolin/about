@@ -23,11 +23,9 @@ export default class App extends Component {
           <p>
             I have a Master’s in <Link>Computational Engineering</Link> from{" "}
             <Link>MIT</Link> where my research applied{" "}
-            <Link>
-              numerical simulation to environmental impact estimation
-            </Link>. As an undergraduate I studied{" "}
-            <Link>Mechanical Engineering</Link> at the{" "}
-            <Link>University of Nebraska</Link> and researched computational
+            <Link>numerical simulation to environmental impact estimation</Link>.
+            As an undergraduate I studied <Link>Mechanical Engineering</Link> at
+            the <Link>University of Nebraska</Link> and researched computational
             heat transfer.
           </p>
           <p>
