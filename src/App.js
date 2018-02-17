@@ -11,13 +11,14 @@ export default class App extends Component {
     return (
       <div className="page">
         <p className="big">
-          {"👋"}Hello, <Link sameWindow>Chris Bolin</Link> here. I’m a software
-          engineer and artist in Denver. I make user interfaces at{" "}
-          <Link>Formidable</Link>. My latest personal project{" "}
-          <Link>Offline Only</Link> was featured in <Link>Vice</Link>, the{" "}
-          <Link>CBC</Link>, <Link>Le Monde</Link>, and <Link>The Next Web</Link>.
-          Other recent projects include <Link>Tessellate</Link> and{" "}
-          <Link>Skycoins</Link>.
+          {"👋"}Hi, <Link sameWindow>Chris</Link> here. I’m a software engineer
+          and artist in Denver. I make user interfaces at{" "}
+          <Link>Formidable</Link> and I’m the founding editor of{" "}
+          <Link>The Disconnect</Link>. Recent personal projects include{" "}
+          <Link>Offline Only</Link>, <Link>Tessellate</Link>, and{" "}
+          <Link>Skycoins</Link>. My work has been in <Link>Vice</Link>,{" "}
+          <Link>Lifehacker</Link>, the <Link>CBC</Link>, <Link>Le Monde</Link>,
+          and <Link>The Next Web</Link>.
         </p>
         <div className="body">
           <p>
@@ -48,9 +49,9 @@ export default class App extends Component {
             <Link>some of my writing</Link> right here.
           </p>
           <p>
-            Want to get in touch? Message me on <Link>Twitter</Link>. If you
-            must, you could <Link>email me</Link>. But please, please do not
-            contact me on LinkedIn.
+            Want to get in touch? Message me on <Link>Twitter</Link> or{" "}
+            <Link>email me</Link>. But please, please do not contact me on
+            LinkedIn.
           </p>
           <Rocket />
         </div>

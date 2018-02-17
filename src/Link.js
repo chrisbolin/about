@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 
 const links = {
-  "Chris Bolin": "https://chris.bolin.co/",
+  Chris: "https://chris.bolin.co/",
+  "The Disconnect": "https://thedisconnect.co/",
   "Computational Engineering": "https://computationalengineering.mit.edu/",
   Formidable: "https://formidable.com/",
   MIT: "https://mit.edu/",
+  Lifehacker:
+    "https://lifehacker.com/you-cant-read-this-website-until-you-turn-off-your-inte-1822776654",
   "Offline Only": "https://chris.bolin.co/offline/",
   Vice:
     "https://motherboard.vice.com/en_us/article/kzzgjn/this-website-only-works-when-youre-offline",
