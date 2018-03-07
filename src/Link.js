@@ -9,10 +9,13 @@ const links = {
   Lifehacker:
     "https://lifehacker.com/you-cant-read-this-website-until-you-turn-off-your-inte-1822776654",
   "Offline Only": "https://chris.bolin.co/offline/",
+  Elements: "https://chris.bolin.co/elements/",
   Vice:
     "https://motherboard.vice.com/en_us/article/kzzgjn/this-website-only-works-when-youre-offline",
   CBC:
     "http://www.cbc.ca/radio/spark/want-to-look-at-this-guy-s-website-go-offline-1.4281329",
+  CJR:
+    "https://www.cjr.org/innovations/disconnect-magazine-only-works-offline.php",
   "Le Monde":
     "http://www.lemonde.fr/big-browser/article/2017/08/29/et-si-se-deconnecter-vous-aidait-a-mieux-profiter-des-richesses-d-internet_5177910_4832693.html",
   "The Next Web":
