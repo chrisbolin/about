@@ -31,6 +31,7 @@ const links = {
   Autotegrity: "https://www.cogolabs.com/portfolio/autotegrity",
   "National Instruments": "http://www.ni.com/",
   "Girl Develop It": "https://www.girldevelopit.com/",
+  DinosaurJS: "https://www.youtube.com/watch?v=nhuvY0CT064",
   "Startup Institute": "https://www.startupinstitute.com/",
   Instagram: "https://www.instagram.com/bolinchris/",
   Unsplash: "https://unsplash.com/@chrisbolin",

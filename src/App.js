@@ -11,34 +11,37 @@ export default class App extends Component {
     return (
       <div className="page">
         <p className="big">
-          {"👋"}Hi, <Link sameWindow>Chris</Link> here. I’m a software engineer
-          and artist in Denver. I make user interfaces at{" "}
-          <Link>Formidable</Link> and I’m the founding editor of{" "}
+          {"👋"}
+          Hi, <Link sameWindow>Chris</Link> here. I’m a software engineer and
+          artist in Colorado. I'm the Director of Engineering for{" "}
+          <Link>Formidable</Link> Denver and the Founding Editor of{" "}
           <Link>The Disconnect</Link>. Recent personal projects include{" "}
           <Link>Offline Only</Link>, <Link>Tessellate</Link>,{" "}
           <Link>Skycoins</Link>, and <Link>Elements</Link>. My work has been in{" "}
           <Link>Vice</Link>, <Link>Lifehacker</Link>, the <Link>CBC</Link>,{" "}
-          <Link>CJR</Link>, <Link>Le Monde</Link>, and <Link>The Next Web</Link>.
+          <Link>CJR</Link>, <Link>Le Monde</Link>, and <Link>The Next Web</Link>
+          .
         </p>
         <div className="body">
           <p>
             I have a Master’s in <Link>Computational Engineering</Link> from{" "}
             <Link>MIT</Link> where my research applied{" "}
-            <Link>numerical simulation to environmental impact estimation</Link>.
-            As an undergraduate I studied <Link>Mechanical Engineering</Link> at
-            the <Link>University of Nebraska</Link> and researched computational
-            heat transfer.
+            <Link>numerical simulation to environmental impact estimation</Link>
+            . As an undergraduate I studied <Link>Mechanical Engineering</Link>{" "}
+            at the <Link>University of Nebraska</Link> and researched
+            computational heat transfer.
           </p>
           <p>
-            Previously I was the first employee at <Link>Jumpshell</Link>, the
+            Previously I was the first engineer at <Link>Jumpshell</Link>, the
             lead data scientist at <Link>Autotegrity</Link>, and an engineer at{" "}
             <Link>National Instruments</Link>.
           </p>
           <p>
-            I love teaching and mentoring. I’ve taught at MIT,{" "}
+            I love teaching, mentoring, and presenting. I’ve taught at MIT,{" "}
             <Link>Girl Develop It</Link>, and <Link>Startup Institute</Link> and
             tutored high school students in mathematics and environmental
-            studies.
+            studies. I've spoken at <Link>DinosaurJS</Link> and a number of
+            meetups.
           </p>
           <p>
             You can see my photography on <Link>Instagram</Link> and{" "}
